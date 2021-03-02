@@ -39,6 +39,7 @@
     "@types/get-port": "^4.2.0",
     "@types/google-protobuf": "^3.7.4",
     "@types/jest": "^26.0.20",
+    "coveralls": "^3.1.0",
     "defer-promise": "^2.0.1",
     "get-port": "^5.1.1",
     "google-protobuf": "^3.15.3",
