@@ -9,7 +9,7 @@ import {
   isAbortError,
   throwIfAborted,
   waitForEvent,
-} from '@omkarkirpan/abort-controller-x';
+} from '../abort-controller-x/src';
 import AbortController from 'node-abort-controller';
 import {isAsyncIterable} from '../utils/isAsyncIterable';
 import {patchClientWritableStream} from '../utils/patchClientWritableStream';

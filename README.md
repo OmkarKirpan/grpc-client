@@ -194,7 +194,7 @@ A client call can be cancelled using
 
 ```ts
 import AbortController from 'node-abort-controller';
-import {isAbortError} from '@omkarkirpan/abort-controller-x';
+import {isAbortError} from '@omkarkirpan/grpc-client';
 
 const abortController = new AbortController();
 
@@ -342,7 +342,7 @@ import {
   CallOptions,
   ClientError,
 } from '@omkarkirpan/grpc-client';
-import {isAbortError} from '@omkarkirpan/abort-controller-x';
+import {isAbortError} from '@omkarkirpan/grpc-client';
 
 async function* loggingMiddleware<Request, Response>(
   call: ClientMiddlewareCall<Request, Response>,

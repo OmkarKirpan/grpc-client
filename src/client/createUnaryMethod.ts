@@ -1,5 +1,5 @@
 import {Client, Metadata, MethodDefinition} from '@grpc/grpc-js';
-import {execute} from '@omkarkirpan/abort-controller-x';
+import {execute} from '../abort-controller-x/src';
 import AbortController from 'node-abort-controller';
 import {isAsyncIterable} from '../utils/isAsyncIterable';
 import {CallOptions} from './CallOptions';
