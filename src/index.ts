@@ -4,4 +4,5 @@ export * from './client/ClientFactory';
 export * from './client/Client';
 export {ClientError} from './client/ClientError';
 export * from './client/ClientMiddleware';
+export {createMetadata} from './client/createMetadata';
 export * from './abort-controller-x/src';
